@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>registration</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap3/css/bootstrap.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1 class="text-center">Registration</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+				<!-- <form class="form-horizontal" method="post" action="#"> -->
+
+				<div class="form-group" id="login-unsaccess">
+					<label for="name" class="control-label">Login</label>
+					<div class="input-group">
+						<span class="input-group-addon"> <i
+							class="glyphicon glyphicon-user" aria-hidden="true"></i>
+						</span> 
+						<input type="text" class="form-control" name="login" id="login"
+							placeholder="Enter your login" onclick="" /> <span
+							class="glyphicon glyphicon-ok form-control-feedback"
+							aria-hidden="true"></span>
+					</div>
+					<span class="help-block" id="login-msg"></span>
+				</div>
+
+				<div class="form-group" id="fio-unsaccess">
+					<label for="name" class="control-label">N.S.M.</label>
+					<div class="input-group">
+						<span class="input-group-addon"> <i
+							class="glyphicon glyphicon-record" aria-hidden="true"></i>
+						</span> <input type="text" class="form-control" name="fio" id="fio"
+							placeholder="Enter your Name" /> <span
+							class="glyphicon glyphicon-ok form-control-feedback"
+							aria-hidden="true"></span>
+					</div>
+					<span class="help-block" id="fio-msg"></span>
+				</div>
+
+				<div class="form-group" id="password-unsaccess">
+					<label for="password" class="cols-sm-2 control-label">Password</label>
+					<div class="input-group">
+						<span class="input-group-addon"><i
+							class="glyphicon glyphicon-lock" aria-hidden="true"></i></span> <input
+							type="password" class="form-control" name="password"
+							id="password" placeholder="Enter your Password" /> <span
+							class="glyphicon glyphicon-ok form-control-feedback"
+							aria-hidden="true"></span>
+					</div>
+					<span class="help-block" id="password-msg"></span>
+				</div>
+				<div class="form-group" id="passwordConfirm-unsaccess">
+					<label for="confirm" class="cols-sm-2 control-label">Confirm
+						Password</label>
+					<div class="input-group">
+						<span class="input-group-addon"><i
+							class="glyphicon glyphicon-lock" aria-hidden="true"></i></span> <input
+							type="password" class="form-control" name="confirm" id="passwordConfirm"
+							placeholder="Confirm your Password" /> <span
+							class="glyphicon glyphicon-ok form-control-feedback"
+							aria-hidden="true"></span>
+					</div>
+					<span class="help-block" id="passwordConfirm-msg"></span>
+				</div>
+				<div class="form-group ">
+					<button type="button" class="btn btn-primary"
+						id="registration-button">Register</button>
+				</div>
+				<div class="login-register">
+					<a href="login">Login</a>
+				</div>
+				<!-- </form> -->
+
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap3/js/bootstrap.js"></script>
+	<script src="js/aftertyping.js" type="text/javascript"></script>
+	<script src="js/registration.js" type="text/javascript"></script>
+	<!--
+
+//-->
+	</script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>index</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap3/css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#responsive-menu">
+							<span class="sr-only">Open</span> <span class="icon-bar"></span>
+							<span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="responsive-menu">
+
+						<div class="navbar-form navbar-right">
+
+							<div class="form-group">
+								<button type="submit" id="log-out"
+									class="btn btn-primary navbar-right">
+									<i class="glyphicon glyphicon-log-in"></i> Log out
+								</button>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container-fluid">
+		<table class="table table-striped" style="min-width: 800px" id="notes-table">
+			<thead class="ab">
+				<tr>
+
+					<th>Name</th>
+					<th>Surname</th>
+					<th>Last Name</th>
+					<th>Phone</th>
+					<th>Home phone</th>
+					<th>Address</th>
+					<th>email</th>
+					<th><i class="glyphicon glyphicon-cog"></i></th>
+					<th><i class="glyphicon glyphicon-remove"></i></th>
+
+				</tr>
+			</thead>
+
+
+			<tbody >
+				<tr >
+
+					<th>
+						<div class="form-group" id="">
+							<div class="input-group">
+								<input type="text" class="form-control" name="name-filter" id="name-filter"
+									value="" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="surname-filter" id="surname-filter"
+									value="" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th></th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="phone-filter" id="phone-filter"
+									value="" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th></th>
+
+				</tr>
+				
+				<tr>
+
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-name" id="add-name"
+									placeholder="name" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-surname" id="add-surname"
+									placeholder="surname" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-lastname" id="add-lastname"
+									placeholder="last name" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-phone" id="add-phone"
+									placeholder="mobile phone" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-homephone" id="add-homephone"
+									placeholder="home phone" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-address" id="add-address"
+									placeholder="address" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block has-success"></span>
+						</div>
+					</th>
+					<th>
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" name="add-email" id="add-email"
+									placeholder="e-mail" /> <span
+									class="glyphicon glyphicon-ok form-control-feedback"
+									aria-hidden="true"></span>
+							</div>
+							<span class="help-block"></span>
+						</div>
+					</th>
+					<th></th>
+					<th><button class="btn btn-default" id="add-note"><i class="glyphicon glyphicon-plus"></i></button></th>
+					
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap3/js/bootstrap.js"></script>
+	<script src="js/aftertyping.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+	
+
+</body>
+</html>
